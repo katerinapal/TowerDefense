@@ -1,4 +1,9 @@
-﻿(function($, undefined)
+var y;
+var x;
+import jquery from "..\\..\\jquery.js";
+import { game } from "..\\..\\TowerDefense.js";
+import { TowerDefense } from "..\\TowerDefense.js";
+(function($, undefined)
 {
     TowerDefense.MapObject = function(game, size, range)
     {

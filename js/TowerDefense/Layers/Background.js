@@ -1,4 +1,9 @@
-﻿(function(undefined)
+var bgcanvas;
+var y;
+var x;
+import { game } from "..\\..\\..\\TowerDefense.js";
+import { TowerDefense } from "..\\..\\TowerDefense.js";
+(function(undefined)
 {
     function createBackground(width, height, scale)
     {

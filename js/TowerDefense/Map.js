@@ -1,4 +1,7 @@
-﻿(function($, undefined)
+var result;
+import jquery from "..\\..\\jquery.js";
+import { TowerDefense } from "..\\TowerDefense.js";
+(function($, undefined)
 {
     TowerDefense.Map = function(width, height)
     {

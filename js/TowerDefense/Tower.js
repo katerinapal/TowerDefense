@@ -1,4 +1,7 @@
-﻿(function($, undefined)
+import jquery from "..\\..\\jquery.js";
+import { game } from "..\\..\\TowerDefense.js";
+import { TowerDefense } from "..\\TowerDefense.js";
+(function($, undefined)
 {
     TowerDefense.newTower = function(game)
     {

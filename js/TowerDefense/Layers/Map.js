@@ -1,4 +1,10 @@
-﻿(function(undefined)
+var y;
+var x;
+var placeholder;
+var selected;
+import { game } from "..\\..\\..\\TowerDefense.js";
+import { TowerDefense } from "..\\..\\TowerDefense.js";
+(function(undefined)
 {
     TowerDefense.Layer.map = function(game, map)
     {

@@ -1,4 +1,5 @@
-﻿(function(undefined)
+import { TowerDefense } from "..\\TowerDefense.js";
+(function(undefined)
 {
     TowerDefense.Point = function(x, y)
     {

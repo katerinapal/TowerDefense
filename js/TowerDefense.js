@@ -1,4 +1,10 @@
-﻿(function($, undefined)
+var timerId;
+var TowerDefense;
+import jquery from "..\\jquery.js";
+import { game } from "..\\TowerDefense.js";
+import { canvas } from ".\\TowerDefense\\Layers\\PathfindingDebug.js";
+import { explosions } from ".\\TowerDefense\\Layers\\Explosions.js";
+(function($, undefined)
 {
     TowerDefense = function(canvas)
     {

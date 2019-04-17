@@ -1,3 +1,10 @@
+var targetAngle;
+var currentAngleDelta;
+var currentAngle;
+var result;
+import jquery from "..\\..\\jquery.js";
+import { game } from "..\\..\\TowerDefense.js";
+import { TowerDefense } from "..\\TowerDefense.js";
 (function($, undefined)
 {
     TowerDefense.newTurret = function(game, size, range)

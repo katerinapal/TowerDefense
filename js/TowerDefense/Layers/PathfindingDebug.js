@@ -1,4 +1,10 @@
-﻿(function(undefined)
+var y;
+var x;
+var canvas;
+var data;
+import { game } from "..\\..\\..\\TowerDefense.js";
+import { TowerDefense } from "..\\..\\TowerDefense.js";
+(function(undefined)
 {
     TowerDefense.Layer.pathfindingDebug = function(game, map, tower)
     {

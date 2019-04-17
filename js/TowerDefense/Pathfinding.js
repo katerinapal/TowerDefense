@@ -1,4 +1,12 @@
-﻿(function($, undefined)
+var node;
+var min;
+var max;
+import jquery from "..\\..\\jquery.js";
+import { TowerDefense } from "..\\TowerDefense.js";
+import { result } from ".\\Map.js";
+import { y } from ".\\Layers\\Background.js";
+import { x } from ".\\Layers\\Background.js";
+(function($, undefined)
 {
     function distance(from, to)
     {

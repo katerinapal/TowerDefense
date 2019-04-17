@@ -1,4 +1,6 @@
-﻿(function(undefined)
+var explosions;
+import { TowerDefense } from "..\\..\\TowerDefense.js";
+(function(undefined)
 {
     TowerDefense.Layer.explosions = function(game)
     {
